@@ -1,0 +1,46 @@
+{
+  "name": "modshield/flarum",
+  "description": "ModShield anti-spam connector for Flarum",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "keywords": ["flarum", "flarum-extension", "anti-spam", "moderation", "spam", "modshield"],
+  "homepage": "https://github.com/mehdi-zaidi/ModShield-Flarum",
+  "authors": [
+    {
+      "name": "Mehdi Zaïdi",
+      "email": "mehdizaidi94@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/mehdi-zaidi/ModShield-Flarum/issues",
+    "source": "https://github.com/mehdi-zaidi/ModShield-Flarum"
+  },
+  "require": {
+    "php": ">=8.1",
+    "flarum/core": "^1.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ModShield\\Flarum\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ModShield\\Flarum\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "ModShield Anti-Spam",
+      "icon": {
+        "name": "fas fa-shield-alt",
+        "backgroundColor": "#e8794a",
+        "color": "#fff"
+      }
+    }
+  }
+}

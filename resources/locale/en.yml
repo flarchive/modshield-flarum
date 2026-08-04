@@ -1,0 +1,15 @@
+modshield-flarum:
+  admin:
+    title: ModShield Anti-Spam
+    description: Protect your forum from spam using ModShield Core.
+    core_url_label: ModShield Core URL
+    api_key_label: API Key
+    mode_label: Mode
+    mode_help: >-
+      Active enforces the decision returned by ModShield Core (spam posts are
+      hidden). To observe without hiding anything, keep this Active and set your
+      ModShield Core site to shadow mode — Core then returns "allow" and nothing
+      is hidden.
+    fail_strategy_label: When Core is unavailable
+    moderator_group_id_label: Moderator group ID
+    moderator_group_id_help: Group whose members are reported to ModShield as moderators (Flarum default is 4).

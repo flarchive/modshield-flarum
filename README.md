@@ -2,13 +2,16 @@
 
 > **Read-only archive of released versions of modshield/flarum.** Not for installation: use [Packagist](https://packagist.org/packages/modshield/flarum) or the [upstream repository](https://github.com/mehdi-zaidi/ModShield-Flarum).
 
-**0** versions archived · Latest: [`v1.3.0`](https://github.com/flarchive/modshield-flarum/tree/archive/v1.3.0) · License: `MIT` · Flarum: `^1.0`
+**4** versions archived · Latest: [`v1.3.0`](https://github.com/flarchive/modshield-flarum/tree/archive/v1.3.0) · License: `MIT` · Flarum: `^1.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.1.0` | 2026-08-04 | `^1.0` | [Browse](https://github.com/flarchive/modshield-flarum/tree/archive/v1.1.0) |
+| `v1.2.0` | 2026-08-04 | `^1.0` | [Browse](https://github.com/flarchive/modshield-flarum/tree/archive/v1.2.0) |
+| `v1.2.1` | 2026-08-04 | `^1.0` | [Browse](https://github.com/flarchive/modshield-flarum/tree/archive/v1.2.1) |
+| `v1.3.0` | 2026-08-06 | `^1.0` | [Browse](https://github.com/flarchive/modshield-flarum/tree/archive/v1.3.0) |
 
 Catalog entry: [packages/modshield-flarum.json](https://github.com/flarchive/archive-index/blob/main/packages/modshield-flarum.json)
 
